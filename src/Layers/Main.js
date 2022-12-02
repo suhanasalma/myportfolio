@@ -27,7 +27,7 @@ const Main = () => {
     <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content  flex flex-col ">
-        <div className="sticky top-0 pt-10  nav-bg h-20 flex justify-between navbar">
+        <div className="sticky top-0 pt-10  nav-bg h-20 flex justify-around navbar">
           <div className="flex-none  lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost ">
               <svg
@@ -54,9 +54,6 @@ const Main = () => {
             <Link className="name text-xl font-bold uppercase">
               Salma <br /> Akter
             </Link>
-          </div>
-          <div className="sm:hidden email text-lg md:inline-block">
-            <p className="">suhanasalma800@gmail.com</p>
           </div>
           <div className="flex-none hidden lg:block">
             <ul className="menu text-lg menu-horizontal">{menus}</ul>
