@@ -1,0 +1,11 @@
+.nav-bg{
+  /* background: black; */
+background: #ECF0F3
+}
+
+.nav-bg li, .name, .email, h1{
+  background: -webkit-linear-gradient( right top, #9a6ac0, #89569b, #754479, #5f345a, #47253e, #46223b, #451f37, #441c34, #5b2144, #742554, #8d2865, #a82a75);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
