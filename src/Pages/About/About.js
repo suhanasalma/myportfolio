@@ -52,7 +52,9 @@ const About = () => {
              </div>
            </ul>
            <div className="text-center">
-             <button className="btn git-btn w-40 mb-10">My GitHub</button>
+             <a href="https://github.com/suhanasalma?tab=repositories">
+               <button className="btn git-btn w-40 mb-10">My GitHub</button>
+             </a>
            </div>
          </div>
        </div>
