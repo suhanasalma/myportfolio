@@ -67,13 +67,13 @@ const Skills = () => {
    return (
      <div className="lg:w-8/12 xl:w-6/12 mx-auto my-32">
        <h2 className="text-center font-bold text-4xl skill mb-10">Skills</h2>
-       <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto w-10/12 ">
+       <div className="grid lg:grid-cols-4 sm:grid-cols-2 md:grid-cols-3 gap-10 mx-auto w-10/12 justify-items-center">
          {skills.map((skill) => (
            <div>
              <div className="w-32 bg-white h-32 object-cover flex items-center justify-center skill-img">
                <img loading="lazy" className="w-20 " src={skill.img} alt="" />
              </div>
-             <p className='name mt-2'>{skill?.name}</p>
+             <p className="name mt-2">{skill?.name}</p>
            </div>
          ))}
        </div>

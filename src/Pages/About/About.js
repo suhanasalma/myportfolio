@@ -7,8 +7,12 @@ import { FaRegHandPointDown, FaRegCheckCircle } from "react-icons/fa";
 
 const About = () => {
    return (
-     <div className="flex sm:flex-col lg:flex-row justify-between items-center lg:w-8/12 xl:w-6/12 mx-auto gap-10">
-       <img src={propic} className="rounded-xl w-96 h-96 object-cover" alt="" />
+     <div className="flex sm:flex-col lg:flex-row justify-between items-center lg:w-8/12 xl:w-6/12 mx-auto gap-10 ">
+       <img
+         src={propic}
+         className=" rounded-xl w-96 mx-10 h-96 object-cover "
+         alt=""
+       />
 
        <div>
          <div className="md:w-96 sm:w-72">
@@ -47,8 +51,8 @@ const About = () => {
                </li>
              </div>
            </ul>
-           <div className='text-center'>
-             <button className='btn git-btn w-40 mb-10'>My GitHub</button>
+           <div className="text-center">
+             <button className="btn git-btn w-40 mb-10">My GitHub</button>
            </div>
          </div>
        </div>
