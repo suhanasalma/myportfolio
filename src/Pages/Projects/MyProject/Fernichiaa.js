@@ -20,12 +20,12 @@ const Fernichiaa = () => {
           </p>
           <div className="flex items-center gap-5">
             <a href="https://github.com/suhanasalma/Fernichiaa_Client">
-              <button className="flex my-10 gap-2 items-center justify-center btn btn-outline">
+              <button className="flex my-10 gap-2 items-center justify-center btn btn-outline sm:h-fit">
                 <VscGithub /> Github Repo Client
               </button>
             </a>
             <a href="https://github.com/suhanasalma/Fernichiaa_Server">
-              <button className="flex my-10 gap-2 items-center justify-center btn btn-outline">
+              <button className="flex my-10 gap-2 items-center justify-center btn btn-outline sm:h-fit">
                 <VscGithub /> Github Repo Server
               </button>
             </a>
