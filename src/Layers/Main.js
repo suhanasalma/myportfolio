@@ -30,7 +30,7 @@ const Main = () => {
     <div className="drawer">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content  flex flex-col ">
-        <div className="sticky top-0 pt-10  nav-bg h-20 flex justify-around navbar">
+        <div className="sticky top-0 py-10  nav-bg flex justify-around navbar">
           <div className="flex-none  lg:hidden">
             <label htmlFor="my-drawer-3" className="btn btn-square btn-ghost ">
               <svg
@@ -48,7 +48,7 @@ const Main = () => {
               </svg>
             </label>
           </div>
-          <div className=" px-2 mx-2 gap-3 ">
+          <div className=" px-2 mx-2 gap-3">
             <img
               src={profile}
               className="h-12 w-12 object-cover rounded-full"
