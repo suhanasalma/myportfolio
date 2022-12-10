@@ -39,7 +39,7 @@ const Home = () => {
           something fun and cool so it never a boring websites
         </p>
         <div className=" text-center mt-5">
-          <a href="https://drive.google.com/file/d/14DYJI0a-t4eL3MJGWHQ7FTjAAy8JOCsT/view?usp=sharing">
+          <a target="blank" href="https://drive.google.com/file/d/14DYJI0a-t4eL3MJGWHQ7FTjAAy8JOCsT/view?usp=sharing">
             <button className="btn cv-btn text-lg">My Cv</button>
           </a>
         </div>
