@@ -1,6 +1,7 @@
 import React from 'react';
 import CleanSpace from './MyProject/CleanSpace';
 import Fernichiaa from './MyProject/Fernichiaa';
+import WebHistory from './MyProject/WebHistory';
 
 const Projects = () => {
    return (
@@ -11,6 +12,7 @@ const Projects = () => {
        <div>
          <Fernichiaa/>
          <CleanSpace/>
+         <WebHistory/>
        </div>
      </div>
    );

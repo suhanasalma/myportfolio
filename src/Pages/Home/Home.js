@@ -6,6 +6,7 @@ import Typewriter from "typewriter-effect";
 import About from "../About/About";
 import Skills from "../Skills/Skills";
 import Projects from "../Projects/Projects";
+import Contact from "../Contact/Contact";
 
 const Home = () => {
   return (
@@ -52,6 +53,9 @@ const Home = () => {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div id="contact">
+        <Contact/>
       </div>
     </section>
   ); 
