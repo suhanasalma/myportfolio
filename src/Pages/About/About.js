@@ -16,7 +16,7 @@ const About = () => {
 
        <div>
          <div className="md:w-96 sm:w-72">
-           <p className="text-4xl name">I am Salma Akter</p>
+           <p className="lg:text-4xl sm:text-2xl name">I am Salma Akter</p>
            <p className="my-5 text-lg flex">
              I have been coding nearly 8months. I'm a full stack web developer
              who loves to building full stack application & learning new

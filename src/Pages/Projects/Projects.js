@@ -6,7 +6,7 @@ import WebHistory from './MyProject/WebHistory';
 const Projects = () => {
    return (
      <div className="w-10/12 mx-auto">
-       <h2 className="text-center font-bold text-4xl skill lg:mb-32 sm:mb-0">
+       <h2 className="text-center font-bold md:text-4xl sm:text-2xl skill lg:mb-32 sm:mb-0">
          My Coding Projects
        </h2>
        <div>
