@@ -5,7 +5,7 @@ import img from "../../../Assets/project/2.jpg";
 
 const CleanSpace = () => {
    return (
-     <div className="flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center gap-10 mt-52">
+     <div className="flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center gap-10 lg:mt-52 md:mt-32">
        <div className="flex  items-center justify-center w-full h-96 xl:w-1/2">
          <img
            className="block object-cover w-full h-full max-w-2xl rounded-md"
@@ -15,7 +15,7 @@ const CleanSpace = () => {
        </div>
        <div className="w-full xl:w-1/2">
          <div className="xl:max-w-xl ">
-           <h1 className="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white xl:text-4xl">
+           <h1 className="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white xl:text-2xl">
              Clean Space
            </h1>
            <p className="mt-4 text-gray-600 dark:text-gray-300">

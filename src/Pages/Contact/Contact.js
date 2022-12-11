@@ -30,7 +30,7 @@ const Contact = () => {
 
    return (
      <div>
-       <section class="bg-cover mb-10 w-5/6 mx-auto bg">
+       <section class="bg-cover mb-10 w-5/6 mx-auto bg mt-52">
          <div class="flex flex-col min-h-screen bg-black/60">
            <div class="container flex flex-col flex-1 px-6 py-12 mx-auto">
              <div class="flex-1 lg:flex lg:items-center lg:-mx-6">

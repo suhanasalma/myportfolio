@@ -5,14 +5,16 @@ import WebHistory from './MyProject/WebHistory';
 
 const Projects = () => {
    return (
-     <div className='w-10/12 mx-auto mb-32'>
-       <h2 className="text-center font-bold text-4xl skill mb-10">
+     <div className="w-10/12 mx-auto">
+       <h2 className="text-center font-bold text-4xl skill lg:mb-32 sm:mb-0">
          My Coding Projects
        </h2>
        <div>
-         <Fernichiaa/>
-         <CleanSpace/>
-         <WebHistory/>
+         <Fernichiaa />
+         <hr className="bg-black h-[2px] mt-14" />
+         <CleanSpace />
+         <hr className="bg-black h-[2px] mt-14" />
+         <WebHistory />
        </div>
      </div>
    );
