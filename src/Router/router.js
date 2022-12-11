@@ -1,6 +1,7 @@
 // import Header from "../Pages/Shared/Header/Header";
 
 import About from "../Pages/About/About";
+import Blogs from "../Pages/Blogs/Blogs";
 
 const { createBrowserRouter } = require("react-router-dom");
 const { default: Main } = require("../Layers/Main");
@@ -18,6 +19,10 @@ export const router = createBrowserRouter([
          {
             path:'/home',
             element:<Home/>
+         },
+         {
+            path:'/blogs',
+            element:<Blogs/>
          },
 
       ]

@@ -24,6 +24,9 @@ const Main = () => {
       <li>
         <a href="#contact">Contact</a>
       </li>
+      <li>
+        <Link to='blogs'>Blogs</Link>
+      </li>
     </>
   );
   return (
