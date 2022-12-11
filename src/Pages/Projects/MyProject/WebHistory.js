@@ -7,7 +7,7 @@ const WebHistory = () => {
     <div className="flex flex-col px-6 py-10 mx-auto space-y-6 lg:h-[32rem] lg:py-16 lg:flex-row lg:items-center gap-10 lg:mt-52 md:mt-32">
       <div className="w-full xl:w-1/2">
         <div className="xl:max-w-xl ">
-          <h1 className="text-2xl font-semibold tracking-wide text-gray-800 dark:text-white xl:text-4xl">
+          <h1 className="md:text-3xl sm:text-2xl font-semibold tracking-wide text-gray-800 dark:text-white xl:text-4xl">
             WebHistory
           </h1>
           <p className="mt-4 text-gray-600 dark:text-gray-300">

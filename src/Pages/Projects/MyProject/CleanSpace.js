@@ -15,7 +15,7 @@ const CleanSpace = () => {
        </div>
        <div className="w-full xl:w-1/2">
          <div className="xl:max-w-xl ">
-           <h1 className="text-3xl font-semibold tracking-wide text-gray-800 dark:text-white xl:text-2xl">
+           <h1 className="md:text-3xl sm:text-2xl font-semibold tracking-wide text-gray-800 dark:text-white xl:text-2xl">
              Clean Space
            </h1>
            <p className="mt-4 text-gray-600 dark:text-gray-300">
